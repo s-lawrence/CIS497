@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <title>HTML5 Audio Player UI - Design Shack Demo</title>
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="shortcut icon" href="http://designshack.net/favicon.ico">
+  <link rel="icon" href="http://designshack.net/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
+</head>
+
+<body>
+  <div id="topbar">
+  <a href="http://designshack.net">Back to Design Shack</a>
+  </div>
+  
+  <div id="w">
+    <div id="content">
+      <h1>Customized HTML5 Audio Player</h1>
+
+      <div class="audio-player">
+        <h2>The Good Lawdz - Evidence Song</h2>
+        <audio id="audio-player" src="media/evidence-song.mp3" type="audio/mp3" controls="controls"></audio>
+      </div><!-- @end .audio-player -->
+    </div><!-- @end #content -->
+  </div><!-- @end #w -->
+<script type="text/javascript">
+$(function(){
+  $('#audio-player').mediaelementplayer({
+    alwaysShowControls: true,
+    features: ['playpause','progress','volume'],
+    audioVolume: 'horizontal',
+    audioWidth: 450,
+    audioHeight: 70,
+    iPadUseNativeControls: true,
+    iPhoneUseNativeControls: true,
+    AndroidUseNativeControls: true
+  });
+});
+</script>
+</body>
+</html>

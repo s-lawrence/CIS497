@@ -1,0 +1,147 @@
+
+
+	#main_module
+	{
+		width : 99%;
+	}
+
+	.progress_status
+	{
+		width : 58%;
+	}
+
+	#menu_holder{
+	
+		position : absolute;
+		margin-left : 230px;
+		width : 150px;
+		height : 100px;
+		margin-top : -125px;
+		text-align : left;
+	}
+	
+	.file_dialog{
+		
+		width : 80%;
+		font-size : 17px;
+		
+	}	
+	
+	.global_custom_dropbox_message{
+		
+		font-family : Verdana, Helvetica, sans-serif;
+		color : #7329cd;	
+		font-size : 11px;
+		margin-bottom : 20px;
+		text-align : justify;
+		text-shadow : 1px 1px 1px white;
+		width : 100%;
+		line-height : 20px;
+		
+	}
+	
+	#uploader_container{
+		width : 90%;
+	}	
+	
+	
+	.file_container{
+		width : 100%;
+	}	
+	
+	.file_container_title{
+		
+		font-family : Verdana, Helvetica, sans-serif;
+		color : #7329cd;	
+		font-size : 22px;
+		margin-bottom : 20px;
+		text-shadow : 1px 1px 1px white;
+		width : 100%;
+		
+	}
+	
+	.progress_time
+	{	
+		width : 90%;
+		margin-left : 10px;
+		padding : 4px;
+	}
+	
+	
+	.container {
+        width: 220px;
+        margin: 0 auto;
+		border:0px solid #cccccc;
+    }	
+	
+	.progress_text{
+		
+		margin-top : -40px;
+		margin-left : 242px;
+		
+	}
+	
+    .progress {
+		
+		background-image:url('../loading.gif');
+        width: 0%;
+        height: 20px;  
+		margin-top : 10px;
+		margin-bottom : 10px;
+		margin-left : -20px;
+		
+    }
+	
+	.admin_login_index
+	{
+		width : 85%;
+		margin : 0 auto;
+		margin-top : 20px;
+		
+	}	
+	
+	.index_login_title
+	{
+		width : 70%;
+		margin : 0 auto;
+	}
+	
+	.see_files_icon img
+	{
+
+		
+	}
+
+	.see_files_icon
+	{
+		margin-top : 4px;
+	}
+	
+	.see_files_numbering
+	{
+		display : none;
+	}	
+	
+	.see_files_filename
+	{
+		width: calc(100% - 220px);
+	}
+	
+	.see_files_filesize
+	{
+		font-size : 11px;
+		width : 60px;
+	}
+	
+	
+	.see_files_del_div	
+	{
+		display : none;
+	}
+	
+	#dropbox_pass, #admin_pass, #dropbox_name
+	{
+		width : 360px;
+	}	
+		
+	

@@ -1,0 +1,189 @@
+
+	.small_logo img
+	{
+		width : 0px;
+		height : 0px;
+	}
+	
+	
+	#logo
+	{
+		display : none;
+	}
+	
+	#logo img
+	{
+		width : 0px;
+		height : 0px;
+	}
+	
+	#main_module
+	{
+		width : 96%;
+		margin : 4px;
+	}
+
+	.progress_status
+	{
+		width : 75%;
+	}
+
+	#menu_holder{
+	
+		position : absolute;
+		margin-left : 55px;
+		width : 150px;
+		height : 100px;
+		margin-top : -125px;
+		text-align : left;
+	}
+	
+	.admin_icon img
+	{
+		height : 60%;
+		width : 60%;
+	}
+	
+	.file_dialog{
+		
+		width : 80%;
+		font-size : 17px;
+		
+	}	
+	
+	.global_custom_dropbox_message{
+		
+		font-family : Verdana, Helvetica, sans-serif;
+		color : #7329cd;	
+		font-size : 11px;
+		margin-bottom : 20px;
+		text-align : justify;
+		text-shadow : 1px 1px 1px white;
+		width : 90%;
+		line-height : 20px;
+		
+	}
+	
+	#uploader_container{
+		width : 88%;
+		margin : 3px;
+	}	
+	
+	
+	.file_container{
+		width : 100%;
+	}	
+	
+	.file_container_title{
+		
+		font-family : Verdana, Helvetica, sans-serif;
+		color : #7329cd;	
+		font-size : 22px;
+		margin-bottom : 20px;
+		text-shadow : 1px 1px 1px white;
+		width : 100%;
+		
+	}
+	
+	.progress_time
+	{	
+		width : 90%;
+		margin-left : 10px;
+		padding : 4px;
+	}
+	
+	
+	.container {
+        width: 90%;
+        margin: 0 auto;
+		border:0px solid #cccccc;
+    }	
+	
+	.progress_text{
+		
+		margin-top : -40px;
+		margin-left : 110px;
+		
+	}
+	
+    .progress {
+		
+		background-image:url('../loading.gif');
+        width: 0%;
+        height: 20px;  
+		margin-top : 10px;
+		margin-bottom : 10px;
+		margin-left : -20px;
+		
+    }
+	
+	.admin_login_index
+	{
+
+		width : 80%;
+		
+	}
+	
+	.index_login_title
+	{
+		width : 85%;
+	}
+	
+	.see_files_icon
+	{
+		display : block;
+	}
+	
+	.see_files_icon img
+	{
+		
+		/* hide the image, resolution too small */
+		width : 0px;
+		height : 0px;
+		
+	}
+	
+	.see_files_numbering
+	{
+		display : none;
+	}
+	
+	.see_files_del_div, .see_files_download_div
+	{
+		display : block;
+		margin : 0px;
+		padding : 0px;
+	}
+	
+	.see_files_del_div
+	{
+		display : none;
+	}
+	
+	.see_files_filesize
+	{
+		font-size : 14px;
+		width : 40%;
+	}
+	
+	.see_files_filename
+	{
+		width : 91%;
+	}
+	
+	.install_table
+	{
+		width : 220px;
+		margin : 0 auto;
+	}
+	
+	#install_logo
+	{
+		width : 42%;
+		height : 42%;
+	}	
+	
+	#dropbox_pass, #admin_pass, #dropbox_name
+	{
+		width : 200px;
+	}
